@@ -2,6 +2,7 @@ name: Create docker image(s) and push to docker hub and ghcr.io
 # see https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-docker-hub-and-github-packages
 
 on:
+  workflow_dispatch:
   push:
     # Sequence of patterns matched against refs/tags
     tags:
